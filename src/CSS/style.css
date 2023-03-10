@@ -64,7 +64,7 @@ a {
 }
 
 .main__right-table-heading {
-    background-color: #a4c3b2;
+    background-color: #bcd3ce;
 }
 
 table, td, tr {
@@ -74,4 +74,18 @@ table, td, tr {
     padding-bottom: 20px;
     padding-left: 30px;
     padding-right: 40px;
+}
+
+/* CSS for quick links */
+.main__right-quick-heading{
+    text-align: center;
+}
+.main__right-quick-item {
+    display: flex;
+}
+.main__right-quick-item > ul{
+    list-style: none;
+}
+.main__right-quick-item span:hover {
+    background-color: #a4c3b2;
 }
