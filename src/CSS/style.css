@@ -1,0 +1,47 @@
+.main {
+    display: flex;
+}
+/* CSS for left side */
+.main__left {
+    float : left;
+    width: 20%;
+    background-color: #cce3de;
+}
+.main__left-heading {
+    font-weight: bolder;
+    font-size: 1.5em;
+    text-align: center;
+}
+.main__left-heading-ul {
+    padding-left: 0px;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color : black;
+    padding: 10px;
+}
+li:hover{
+    background-color: #a4c3b2;
+}
+.main__left-heading-ul-li {
+    padding: 10px 10px ;
+    background-color: #bcd3ce;
+    border : .5px solid #a4c3b2; 
+    margin : 7px 0px;
+}
+.themes {
+    margin-top: 10px;
+}
+.main__left-heading-text {
+    text-align: center;
+}
+
+/* CSS on body */
+
+.heading {
+    text-align: center;
+}
+.main__right-table,  th, td {
+    border : 1px solid #a4c3b2;
+}
